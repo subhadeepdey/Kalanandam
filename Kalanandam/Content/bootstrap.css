@@ -4311,9 +4311,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  color:#333;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
+  color:#777;
 }
 @media (min-width: 768px) {
   .navbar-toggle {
@@ -4536,6 +4538,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
+  color:#333;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4589,7 +4592,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #fff;
+  background-color: #fff !important;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
