@@ -23,9 +23,9 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     @*<li>@Html.ActionLink("Testimonial", "Testimonial", "Home")</li>*@
-                    <li>@Html.ActionLink("Class Information", "Class Information", "Home")</li>
-                    <li>@Html.ActionLink("Events", "Events", "Home")</li>
-                    <li>@Html.ActionLink("Registration", "Registration", "Home")</li>
+                    <li>@Html.ActionLink("Classes", "Classes", "Home")</li>
+                    <li>@*@Html.ActionLink("Events", "Events", "Home")*@</li>
+                    <li>@*@Html.ActionLink("Registration", "Registration", "Home")*@</li>
                     @*<li>@Html.ActionLink("Trainer", "Trainer", "Home")</li>*@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
@@ -33,6 +33,7 @@
             </div>
         </div>
     </div>
+    <br/>
     <div class="container body-content">
         @RenderBody()
         <hr />
