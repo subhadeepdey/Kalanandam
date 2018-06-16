@@ -172,7 +172,6 @@
     <Content Include="img\6.jpg" />
     <Content Include="img\7.jpg" />
     <Content Include="img\8.jpg" />
-    <Content Include="img\9.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
